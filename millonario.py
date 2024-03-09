@@ -1,9 +1,9 @@
 import random
 
-# Generar preguntas y respuestas aleatorias
+
 import random
 
-# Generar preguntas y respuestas aleatorias
+
 preguntas = [
     {
         "pregunta": "¿Cuál es la capital de España?",
@@ -46,9 +46,9 @@ preguntas = [
         "respuesta_correcta": "Mandarín"
     },
     {
-        "pregunta": "¿Cuál es el país con más ciudades del mundo?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿Cuál es el libro más vendido de la historia?",
+        "opciones": ["La biblia", "Don Quijote de la mancha", "Cien años de soledad", "el principito"],
+        "respuesta_correcta": "La biblia"
     },
     {
         "pregunta": "¿Cuál es el país con más países en su frontera?",
@@ -61,99 +61,99 @@ preguntas = [
         "respuesta_correcta": "Canadá"
     },
     {
-        "pregunta": "¿Cuál es el país con más islas?",
-        "opciones": ["Grecia", "Japón", "Canadá", "Estados Unidos"],
-        "respuesta_correcta": "Japón"
+        "pregunta": "¿Cuál es el deporte más practicado del mundo?",
+        "opciones": ["Natacion", "Futbol", "Baloncesto", "Golf"],
+        "respuesta_correcta": "Natacion"
     },
     {
-        "pregunta": "¿Cuál es el país con más volcanes activos?",
-        "opciones": ["Indonesia", "Islandia", "Italia", "Japón"],
-        "respuesta_correcta": "Indonesia"
+        "pregunta": "¿Quién es el autor de el Quijote?",
+        "opciones": ["Miguel de Cervantes", "Shakespeare", "Gabriel Garcia", "Mario Benedetti"],
+        "respuesta_correcta": "Miguel de Cervantes"
     },
     {
-        "pregunta": "¿Cuál es el país con más parques nacionales?",
-        "opciones": ["Estados Unidos", "Canadá", "Australia", "Brasil"],
-        "respuesta_correcta": "Estados Unidos"
+        "pregunta": "¿Cuál fue la primera película de Disney?",
+        "opciones": ["Blancanieves", "Mickey Mouse", "La cenicienta", "Cars"],
+        "respuesta_correcta": "Blancanieves"
     },
     {
-        "pregunta": "¿Cuál es el país con más estados?",
-        "opciones": ["Estados Unidos", "Canadá", "India", "Brasil"],
-        "respuesta_correcta": "Estados Unidos"
+        "pregunta": "¿En qué lugar se usó la primera bomba atómica en combate?",
+        "opciones": ["Hawai", "Tokio", "Hiroshima", "Roma"],
+        "respuesta_correcta": "Hiroshima"
     },
     {
-        "pregunta": "¿Cuál es el país con más habitantes?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿Con cuántos países comparte Colombia fronteras terrestres?",
+        "opciones": ["5", "7", "4", "3"],
+        "respuesta_correcta": "5"
     },
     {
-        "pregunta": "¿Cuál es el país con más ciudades?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿Cuándo ganó la selección colombiana la Copa América de Fútbol?",
+        "opciones": ["2001", "1997", "2011", "2007"],
+        "respuesta_correcta": "2001"
     },
     {
-        "pregunta": "¿Cuál es el país con más islas?",
-        "opciones": ["Grecia", "Japón", "Canadá", "Estados Unidos"],
-        "respuesta_correcta": "Japón"
+        "pregunta": "¿Cuál es el área del arte protagonista en los premios Grammy?",
+        "opciones": ["musica", "audivisuales", "peliculas", "ciencia"],
+        "respuesta_correcta": "musica"
     },
     {
-        "pregunta": "¿Cuál es el país con más volcanes activos?",
-        "opciones": ["Indonesia", "Islandia", "Italia", "Japón"],
-        "respuesta_correcta": "Indonesia"
+        "pregunta": "¿Qué día es la fiesta nacional de Estados Unidos?",
+        "opciones": ["4 de julio", "20 de julio", "7 de agosto", "1 de enero"],
+        "respuesta_correcta": "4 de julio"
     },
     {
-        "pregunta": "¿Cuál es el país con más parques nacionales?",
-        "opciones": ["Estados Unidos", "Canadá", "Australia", "Brasil"],
-        "respuesta_correcta": "Estados Unidos"
+        "pregunta": "¿cual es la cancion mas escuchada de spotify?",
+        "opciones": ["blinding lights", "dakiti", "circles", "yo me porto bonito"],
+        "respuesta_correcta": "blinding lights"
     },
     {
-        "pregunta": "¿Cuál es el país con más estados?",
-        "opciones": ["Estados Unidos", "Canadá", "India", "Brasil"],
-        "respuesta_correcta": "Estados Unidos"
+        "pregunta": "¿Cuál es el animal nacional de Australia?",
+        "opciones": ["Canguro rojo", "condor de los andes", "aguila calva", "koala"],
+        "respuesta_correcta": "Canguro rojo"
     },
     {
-        "pregunta": "¿Cuál es el país con más habitantes?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿En que año se hundio el titanic?",
+        "opciones": ["1997", "1913", "1912", "2011"],
+        "respuesta_correcta": "1912"
     },
     {
-        "pregunta": "¿Cuál es el país con más ciudades?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿Cual es la pelicula mas taquillera de la historia?",
+        "opciones": ["2012", "Titanic", "Avengers Endgame", "Avatar"],
+        "respuesta_correcta": "Avatar"
     },
     {
-        "pregunta": "¿Cuál es el país con más islas?",
-        "opciones": ["Grecia", "Japón", "Canadá", "Estados Unidos"],
-        "respuesta_correcta": "Japón"
+        "pregunta": "¿En qué año se estrenó la película Titanic?",
+        "opciones": ["1997", "2012", "1913", "2000"],
+        "respuesta_correcta": "1997"
     },
     {
-        "pregunta": "¿Cuál es el país con más volcanes activos?",
-        "opciones": ["Indonesia", "Islandia", "Italia", "Japón"],
-        "respuesta_correcta": "Indonesia"
+        "pregunta": "¿En que año sucedio la catastrofe de chernobyl?",
+        "opciones": ["2000", "1990", "2011", "1986"],
+        "respuesta_correcta": "1986"
     },
     {
-        "pregunta": "¿Cuál es el país con más parques nacionales?",
-        "opciones": ["Estados Unidos", "Canadá", "Australia", "Brasil"],
-        "respuesta_correcta": "Estados Unidos"
+        "pregunta": "¿En que año sucedio la toma al palacio de justicia?",
+        "opciones": ["1986", "1985", "2001", "1997"],
+        "respuesta_correcta": "1985"
     },
     {
-        "pregunta": "¿Cuál es el país con más estados?",
-        "opciones": ["Estados Unidos", "Canadá", "India", "Brasil"],
-        "respuesta_correcta": "Estados Unidos"
+        "pregunta": "¿En que año tumbaron las torres gemelas?",
+        "opciones": ["2005", "1998", "2010", "2001"],
+        "respuesta_correcta": "2001"
     },
     {
-        "pregunta": "¿Cuál es el país con más habitantes?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿Cuál es el álbum musical más vendido en la historia?",
+        "opciones": ["Un verano sin ti", "the dark side of the moon", "X100Pre", "Thriller"],
+        "respuesta_correcta": "Thriller"
     },
     {
-        "pregunta": "¿Cuál es el país con más ciudades?",
-        "opciones": ["China", "India", "Estados Unidos", "Brasil"],
-        "respuesta_correcta": "China"
+        "pregunta": "¿Cuál es la videoconsola más vendida en la historia?",
+        "opciones": ["Nintendo 64", "XboX360", "PS4", "PS2"],
+        "respuesta_correcta": "PS2"
     },
     {
-        "pregunta": "¿Cuál es el país con más islas?",
-        "opciones": ["Grecia", "Japón", "Canadá", "Estados Unidos"],
-        "respuesta_correcta": "Japón"
+        "pregunta": "Cual es el album mas escuchado de spotify",
+        "opciones": ["Starboy", "After Hours", "Un verano sin ti", "hollywood bleeding"],
+        "respuesta_correcta": "Un verano sin ti"
     },
     {
         "pregunta": "¿Cuál es el país con más volcanes activos?",
@@ -187,7 +187,7 @@ preguntas = [
     },
 ]
 
-# Generar respuestas aleatorias para cada pregunta
+
 for pregunta in preguntas:
     opciones_aleatorias = pregunta["opciones"][:]
     random.shuffle(opciones_aleatorias)
@@ -195,7 +195,7 @@ for pregunta in preguntas:
 ayudas = {
     "50/50": "Elimina dos opciones incorrectas.",
     "Cambio": "Cambia la pregunta.",
-    "Salir": "Retirarse del juego."
+
 }
 
 reglas = """
@@ -218,16 +218,13 @@ def generar_serie_fibonacci(n):
 # Generar la serie de Fibonacci para 10 estaciones
 serie_fibonacci = generar_serie_fibonacci(10)
 
-# Generar la serie de Fibonacci para 10 estaciones
-serie_fibonacci = generar_serie_fibonacci(10)
-
 
 def hacer_pregunta(pregunta, ayudas_usadas, estacion):
     print(f"Estación {estacion}: {pregunta['pregunta']}")
     for i, opcion in enumerate(pregunta["opciones"], start=1):
         print(f"{i}. {opcion}")
 
-    # Opción para usar una ayuda
+
     print("Ayudas disponibles:")
     for ayuda, descripcion in ayudas.items():
         if ayuda not in ayudas_usadas:
@@ -235,7 +232,7 @@ def hacer_pregunta(pregunta, ayudas_usadas, estacion):
 
     respuesta_usuario = input("Elige una opción o una ayuda: ")
 
-    # Verificar si el usuario eligió una ayuda
+
     if respuesta_usuario in ayudas:
         if respuesta_usuario == "50/50":
             # Implementar la lógica para la ayuda "50/50"
@@ -248,22 +245,21 @@ def hacer_pregunta(pregunta, ayudas_usadas, estacion):
                 pregunta["opciones"].remove(incorrecta)
             ayudas_usadas.add(respuesta_usuario)
             return hacer_pregunta(pregunta, ayudas_usadas,
-                                  estacion)  # Vuelve a hacer la pregunta con las opciones actualizadas
+                                  estacion)
         elif respuesta_usuario == "Cambio":
             print("Has usado la ayuda Cambio. Cambiando de pregunta.")
             ayudas_usadas.add(respuesta_usuario)
-            # Seleccionar una nueva pregunta y volver a hacer la pregunta actual
+
             nueva_pregunta = random.choice(preguntas)
             preguntas.remove(nueva_pregunta)
-            return hacer_pregunta(nueva_pregunta, ayudas_usadas,
-                                  estacion)  # Vuelve a hacer la pregunta con la nueva pregunta
+            return hacer_pregunta(nueva_pregunta, ayudas_usadas, estacion)
         elif respuesta_usuario == "Salir":
-            return False  # El jugador decide retirarse
+            return False
         else:
             print("Ayuda no implementada.")
-            return hacer_pregunta(pregunta, ayudas_usadas, estacion)  # Vuelve a hacer la pregunta sin cambios
+            return hacer_pregunta(pregunta, ayudas_usadas, estacion)
 
-    # Verificar si la respuesta del usuario es correcta
+
     if pregunta["opciones"][int(respuesta_usuario) - 1] == pregunta["respuesta_correcta"]:
         print("¡Correcto!")
         return True
@@ -288,7 +284,7 @@ def jugar():
             print("Has decidido retirarte. Tu puntaje final es:", puntaje)
             return
         pregunta = random.choice(preguntas)
-        preguntas.remove(pregunta)  # Asegurarse de que la pregunta no se repita
+        preguntas.remove(pregunta)
         if hacer_pregunta(pregunta, ayudas_usadas, estacion):
             puntaje += serie_fibonacci[estacion - 1]
             print(f"Tu puntaje actual es: {puntaje}")
@@ -297,5 +293,4 @@ def jugar():
             return
 
 
-# Iniciar el juego
 jugar()
