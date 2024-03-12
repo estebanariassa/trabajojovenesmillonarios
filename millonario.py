@@ -1,4 +1,4 @@
-import random
+
 
 
 import random
@@ -210,13 +210,19 @@ Las reglas son las siguientes:
 """
 
 def generar_serie_fibonacci(n):
-    serie = [1, 2]
-    while len(serie) < n:
-        serie.append(serie[-1] + serie[-2])
+    if n <= 0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        a,b = 1, 1
+        for _ in range (n-1):
+            a,b = b, a+b
+            return b
     return serie
 
 # Generar la serie de Fibonacci para 10 estaciones
-serie_fibonacci = generar_serie_fibonacci(10)
+
 
 
 def hacer_pregunta(pregunta, ayudas_usadas, estacion):
@@ -286,7 +292,7 @@ def jugar():
         pregunta = random.choice(preguntas)
         preguntas.remove(pregunta)
         if hacer_pregunta(pregunta, ayudas_usadas, estacion):
-            puntaje += serie_fibonacci[estacion - 1]
+            puntaje += generar_serie_fibonacci(estacion - 1)
             print(f"Tu puntaje actual es: {puntaje}")
         else:
             print("El juego ha terminado. Tu puntaje final es:", puntaje)
