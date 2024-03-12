@@ -221,10 +221,6 @@ def generar_serie_fibonacci(n):
             return b
     return serie
 
-# Generar la serie de Fibonacci para 10 estaciones
-
-
-
 def hacer_pregunta(pregunta, ayudas_usadas, estacion):
     print(f"Estación {estacion}: {pregunta['pregunta']}")
     for i, opcion in enumerate(pregunta["opciones"], start=1):
